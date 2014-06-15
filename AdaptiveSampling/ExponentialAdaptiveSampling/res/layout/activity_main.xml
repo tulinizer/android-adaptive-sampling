@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/axeX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x: " />
+
+    <TextView
+        android:id="@+id/axeY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="y: " />
+
+    <TextView
+        android:id="@+id/axeZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z: " />
+    
+    <TextView
+        android:id="@+id/omega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O: " />
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" " />
+     <TextView
+        android:id="@+id/moveNotMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="moveNotMove: " />
+    
+    <TextView
+        android:id="@+id/wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wait: " />
+     <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" " />
+     
+     <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time: " />
+     
+      <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nIf I moved, next waiting time will be 2^last_wait. Else, it will be log2(last_wait)" />
+
+</LinearLayout>
